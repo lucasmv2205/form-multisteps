@@ -51,7 +51,7 @@ export function Steps({ items }: StepProps) {
           onClick={handleBack}
           sx={{ mr: 1 }}
         >
-          Voltar
+          Back
         </Button>
         <Box sx={{ flex: "1 1 auto" }} />
         {isLastStep ? (
